@@ -142,26 +142,23 @@ Result Visualization
 4. Interactive analytics dashboard
 
 ---
-# Performance
-Detection Accuracy: ~90%
-Average Inference Time: 1–2 seconds per image
-
----
 # Applications
+```
 Maritime surveillance
 Coastal monitoring
 Illegal fishing detection
 Naval security systems
 Port monitoring
 Traffic analysis
+```
 ---
 
 # Future Enhancements
-
+```
 YOLOv8 integration for faster inference
 Real-time radar stream support
 Automated alert system
 Cloud deployment
 Multi-object maritime monitoring
-
+```
 ---
