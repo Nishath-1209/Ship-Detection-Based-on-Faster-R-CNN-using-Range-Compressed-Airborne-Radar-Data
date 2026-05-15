@@ -84,40 +84,42 @@ Bounding Boxes + Confidence Scores
         ↓
 Visualization Dashboard
 ```
+---
 
+# Model Details
 
-#Model Details
-
-Faster R-CNN
+## Faster R-CNN
 
 Faster R-CNN is a two-stage object detection model:
 
-##1.Region Proposal Network (RPN) generates candidate object regions.
-Classification and bounding box regression localize ships accurately.
-ResNet50 Backbone
+1. Region Proposal Network (RPN) generates candidate object regions.
+2. Classification and bounding box regression localize ships accurately.
+
+## ResNet50 Backbone
 
 Used for extracting deep feature maps from radar images.
 
-##2.Feature Pyramid Network (FPN)
+## Feature Pyramid Network (FPN)
 
 Improves multi-scale ship detection and enhances small object detection.
 
+---
 
+# Usage
 
+1. Open the frontend application.
+2. Upload a radar image.
+3. The backend preprocesses the image.
+4. Faster R-CNN performs ship detection.
+5. Detection results are displayed with:
+   - Bounding boxes
+   - Confidence scores
+   - Analytics dashboard
 
-#Usage
-```
-Open the frontend application.
-Upload a radar image.
-The backend preprocesses the image.
-Faster R-CNN performs ship detection.
-Detection results are displayed with:
-Bounding boxes
-Confidence scores
-Analytics dashboard
-```
+---
 
-#Detection Pipeline
+# Detection Pipeline
+
 ```
 Upload Image
       ↓
@@ -132,34 +134,34 @@ Post-Processing
 Result Visualization
 ```
 
+---
+# Results
+1. Accurate ship detection in noisy radar environments
+2. Reduced false detections compared to CFAR methods
+3. Near real-time response
+4. Interactive analytics dashboard
 
-
-#Results
-Accurate ship detection in noisy radar environments
-Reduced false detections compared to CFAR methods
-Near real-time response
-Interactive analytics dashboard
-
-
-#Performance
+---
+# Performance
 Detection Accuracy: ~90%
 Average Inference Time: 1–2 seconds per image
 
-
-
-#Applications
+---
+# Applications
 Maritime surveillance
 Coastal monitoring
 Illegal fishing detection
 Naval security systems
 Port monitoring
 Traffic analysis
+---
 
+# Future Enhancements
 
-
-#Future Enhancements
 YOLOv8 integration for faster inference
 Real-time radar stream support
 Automated alert system
 Cloud deployment
 Multi-object maritime monitoring
+
+---
