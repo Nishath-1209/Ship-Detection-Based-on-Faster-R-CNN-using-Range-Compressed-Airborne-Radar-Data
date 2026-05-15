@@ -86,26 +86,26 @@ Visualization Dashboard
 ```
 
 
-Model Details
+#Model Details
 
 Faster R-CNN
 
 Faster R-CNN is a two-stage object detection model:
 
-1.Region Proposal Network (RPN) generates candidate object regions.
+##1.Region Proposal Network (RPN) generates candidate object regions.
 Classification and bounding box regression localize ships accurately.
 ResNet50 Backbone
 
 Used for extracting deep feature maps from radar images.
 
-2.Feature Pyramid Network (FPN)
+##2.Feature Pyramid Network (FPN)
 
 Improves multi-scale ship detection and enhances small object detection.
 
 
 
 
-Usage
+#Usage
 ```
 Open the frontend application.
 Upload a radar image.
@@ -117,7 +117,7 @@ Confidence scores
 Analytics dashboard
 ```
 
-Detection Pipeline
+#Detection Pipeline
 ```
 Upload Image
       ↓
@@ -134,20 +134,20 @@ Result Visualization
 
 
 
-Results
+#Results
 Accurate ship detection in noisy radar environments
 Reduced false detections compared to CFAR methods
 Near real-time response
 Interactive analytics dashboard
 
 
-Performance
+#Performance
 Detection Accuracy: ~90%
 Average Inference Time: 1–2 seconds per image
 
 
 
-Applications
+#Applications
 Maritime surveillance
 Coastal monitoring
 Illegal fishing detection
@@ -157,7 +157,7 @@ Traffic analysis
 
 
 
-Future Enhancements
+#Future Enhancements
 YOLOv8 integration for faster inference
 Real-time radar stream support
 Automated alert system
