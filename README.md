@@ -162,3 +162,7 @@ Cloud deployment
 Multi-object maritime monitoring
 ```
 ---
+Deployment Link: 
+```
+https://ship-detection-using-fater-rcnn.vercel.app
+```
